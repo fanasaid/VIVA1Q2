@@ -9,6 +9,7 @@ a. Subtract a.
 b. Divide by b (only if the number is divisible by b).
 3. Your goal is to reach the number 1 using the fewest possible steps. If it's impossible
 to reach 1, return -1.
+
 Constraints:
 • 1 ≤ n ≤ 10^9
 • 1 ≤ a ≤ n
