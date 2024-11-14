@@ -17,7 +17,7 @@ public class V1Q2 {
         int steps = 0;        
                 
         while (nnn > 1) { 
-            if (bbb < 2 || aaa > nnn || nnn < 1){
+            if (bbb < 2 || aaa > nnn){
                 steps = -1;
                 break;
             }
@@ -31,6 +31,11 @@ public class V1Q2 {
             }
             // Increment the step count
             steps++; 
+            
+            if (nnn < 1){
+                steps = -1;
+                break;
+            }
 
             
         }
